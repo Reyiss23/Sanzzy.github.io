@@ -1,0 +1,98 @@
+ *,html {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #575;
+      color: white;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    
+    .tulisan {
+      font-size: 30px;
+      list-style-type: none;
+      color: #575;
+    }
+    
+    .gambar1 {
+      display: flex;
+      justify-content: right;
+      align-items: right;
+      gap: 10px;
+      padding: 20px;
+    }
+    
+    .gambar1 img {
+      width: 70%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      border: 2px solid #ddd;
+            border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 50%;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+    
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .audio-lagu {
+            margin: 20px auto;
+            width: 300px;
+            background: #599;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+        }
+
+        .audio-lagu audio {
+            width: 100%;
+            outline: none;
+    }
+
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
